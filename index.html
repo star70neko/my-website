@@ -2,19 +2,17 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cosmic Dodge ゲーム</title>
+  <title>ブラウザゲームポータル</title>
   <style>
     body {
-      background: #f9f9f9;
-      font-family: 'Segoe UI', sans-serif;
-      color: #333;
+      background: #fdfdfd;
+      font-family: sans-serif;
       margin: 0;
       padding: 0;
     }
 
     header {
-      background: #4a90e2;
+      background: #222;
       color: white;
       padding: 1rem;
       text-align: center;
@@ -22,41 +20,57 @@
     }
 
     main {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       padding: 2rem;
     }
 
-    p {
-      font-size: 1.1rem;
-      margin-bottom: 1.5rem;
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3rem;
     }
 
-    iframe {
-      border: 2px solid #ccc;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      width: 640px;
-      height: 480px;
+    ul {
+      list-style: none;
+      padding: 0;
     }
 
-    footer {
-      text-align: center;
-      padding: 1rem;
-      color: #888;
-      font-size: 0.9rem;
+    li {
+      margin: 0.5rem 0;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <header>Cosmic Dodge</header>
+  <header>ブラウザゲームポータル</header>
   <main>
-    <p>宇宙空間で迫りくる隕石を避けながらスコアを稼ぐゲームです！</p>
-    <iframe src="cosmic-dodge.html"></iframe>
+    <h2>ジャンルで探す</h2>
+    <ul>
+      <li><a href="https://example.com/action" target="_blank">アクションゲーム</a></li>
+      <li><a href="https://example.com/shooting" target="_blank">シューティング</a></li>
+      <li><a href="https://example.com/rpg" target="_blank">ブラウザRPG</a></li>
+      <li><a href="https://example.com/puzzle" target="_blank">パズルゲーム</a></li>
+      <li><a href="https://example.com/solitaire" target="_blank">ソリティア</a></li>
+      <li><a href="https://example.com/fps" target="_blank">FPS・TPS</a></li>
+      <li><a href="https://example.com/defense" target="_blank">防衛ゲーム・TD</a></li>
+      <li><a href="https://example.com/育成" target="_blank">育成ゲーム</a></li>
+      <li><a href="https://example.com/match3" target="_blank">マッチ3・さめがめ</a></li>
+    </ul>
+
+    <h2>おすすめゲームリンク</h2>
+    <ul>
+      <li><a href="https://pacman.live/" target="_blank">パックマン（原作再現）</a></li>
+      <li><a href="https://nekogames.jp/flash/switchoff2.html" target="_blank">スイッチオフ2（暗闇アクション）</a></li>
+      <li><a href="https://example.com/bandit" target="_blank">バンディット（誘導パズル）</a></li>
+      <li><a href="https://example.com/shobon" target="_blank">しょぼんのアクション（原作）</a></li>
+      <li><a href="cosmic-dodge.html">Cosmic Dodge（自作ゲーム）</a></li>
+    </ul>
   </main>
-  <footer>
-    © 2025 star70neko. All rights reserved.
-  </footer>
 </body>
 </html>
